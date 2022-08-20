@@ -1,16 +1,29 @@
 
 
+
+body{
+  padding-top : 10px;
+  margin: 0px;
+
+}
+
+
+
 .Profile {
     width: 150px;
     border-radius: 10px;
     float: left;
+    margin-left: 15px;
     margin-right: 20px;
     margin-bottom: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
   .Title {
     background-color: rgb(32, 227, 29);
-    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .details {
     font-family: Arial, Helvetica, sans-serif;
@@ -26,6 +39,9 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  
   }
 
   .about {
@@ -50,6 +66,8 @@
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 10px;
   }
 
   .contact {
@@ -66,19 +84,24 @@
 
   .paragraph {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
   }
   .skills {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
   }
 
   .p2 {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
   }
 
   .hobbies {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
   }
 
   .p3 {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
   }
